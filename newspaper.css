@@ -1,0 +1,85 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* **-------------Header Section--------------- */
+    
+    #news-top {
+        margin: 0 auto;
+        width: 1440px;
+    }
+    
+    .top-section {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .newsPaper-name {
+        color: var(--Dark-02, #444);
+        text-align: center;
+        font-family: "Old English Text MT";
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 50px;
+    }
+    
+    .newspaper-p {
+        color: var(--Dark-03, #706F6F);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    
+    .news-date {
+        color: var(--Dark-03, #706F6F);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        margin: 10px;
+    }
+    /* /* **-------------Header Section End--------------- * */
+    
+    #full-body {
+        max-width: 1140px;
+    }
+    
+    .latest {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        gap: 20px;
+        flex-shrink: 0;
+        background: var(--Dark-07, #F3F3F3);
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 30px;
+        height: 80px;
+    }
+    
+    .latest-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 110px;
+        height: 48px;
+        flex-shrink: 0;
+        color: white;
+        background: #D72050;
+    }
+    
+    .latest-txt {
+        color: var(--Dark-02, #403F3F);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+    }
