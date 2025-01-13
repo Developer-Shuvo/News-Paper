@@ -25,7 +25,7 @@
                 .newsPaper-name {
                     color: var(--Dark-02, #444);
                     font-family: "Old English Text MT";
-                    font-size: 35px;
+                    font-size: 40px;
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
@@ -180,6 +180,7 @@
                     gap: 22px;
                     margin-top: 80px;
                 }
+                /*---------------------1st Section 25%------------------------ */
                 
                 .w-25per {
                     width: 25%;
@@ -284,13 +285,14 @@
                     font-weight: 500;
                     line-height: 26px;
                 }
-                /*--------- ***Middle content**---------- */
+                /*---------------------Middle Section 50%------------------------ */
                 
                 .w-50per {
                     width: 50%;
                 }
                 
                 .full-box {
+                    margin-bottom: 40px;
                     width: 558px;
                     height: 600px;
                     flex-shrink: 0;
@@ -468,7 +470,84 @@
                     font-weight: 500;
                     line-height: 26px;
                 }
+                /* ***-----------Last section 25%-----------------*** */
                 
                 .w-25per {
-                    background-color: rgba(255, 255, 17, 0.374);
+                    width: 25%;
                 }
+                
+                .login-with {
+                    height: 20px;
+                    width: 60px;
+                }
+                
+                .login-with h2 {
+                    width: 514px;
+                    color: var(--Dark-02, #403F3F);
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 35px;
+                }
+                
+                .btn-1 {
+                    width: 282px;
+                    height: 40px;
+                    flex-shrink: 0;
+                    margin-bottom: 5px;
+                    border-color: blue;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                
+                .btn-1 {
+                    display: flex;
+                    gap: 5px;
+                    color: rgb(86, 55, 228);
+                    font-size: 16px;
+                    justify-content: center;
+                    align-items: center;
+                    justify-items: center;
+                    text-align: center;
+                }
+                
+                .btn-1 img {
+                    height: 24px;
+                    width: 24px;
+                }
+                
+                .btn-1 p {
+                    font-size: 15px;
+                }
+                /* .................... */
+                
+                .btn-2 {
+                    width: 282px;
+                    height: 40px;
+                    flex-shrink: 0;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                
+                .btn-2 {
+                    display: flex;
+                    gap: 2px;
+                    color: rgb(78, 73, 73);
+                    font-size: 16px;
+                    justify-content: center;
+                    align-items: center;
+                    justify-items: center;
+                    text-align: center;
+                }
+                
+                .btn-2 img {
+                    height: 32px;
+                    width: 32px;
+                }
+                
+                .btn-2 p {
+                    font-size: 15px;
+                }
+                /* ***-----find us on------*** */
