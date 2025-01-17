@@ -327,3 +327,31 @@ a {
     border-radius: 5px;
     background: var(--Dark-02, #403F3F);
 } */
+
+
+/* ------------------Next Button----------------- */
+
+.two-button {
+    display: flex;
+    gap: 20px;
+}
+
+.previous-btn button {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 60px;
+    border: 3px solid #9e0b86;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: rgba(75, 253, 52, 0.995);
+    font-size: 1.2em;
+    font-weight: 550;
+}
+
+button:hover {
+    background: #d62051;
+    color: white;
+    font-size: 1.5em;
+}

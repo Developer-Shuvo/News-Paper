@@ -189,6 +189,11 @@
 
 /* ------------------Previous Button------------------ */
 
+.two-button {
+    display: flex;
+    gap: 20px;
+}
+
 .previous-btn button {
     margin-top: 120px;
     width: 150px;
