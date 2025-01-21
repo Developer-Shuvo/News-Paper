@@ -312,7 +312,7 @@ a {
     flex-shrink: 0;
     border-radius: 5px;
     background: var(--Dark-02, #403F3F);
-    /* ----------------------- */
+    /* ----------here is two part------------- */
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -320,7 +320,6 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    /* cursor: pointer; */
 }
 
 .login-btn:hover {
@@ -357,7 +356,7 @@ a {
 
 /* -----Hover after Effect on Button---- */
 
-a:hover {
+previous:hover {
     background: #d62051;
     color: white;
     font-size: 1.5em;
